@@ -10,8 +10,7 @@
 ##### 导入路径: xcode右键点击进入Contents
 
 ```
-/Developer/Library/Xcode/Templates/File Templates/MultiPlatform/Source
+/Developer/Library/Xcode/Templates/File Templates/MultiPlatform/Source 
 ```
-
 
 
