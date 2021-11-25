@@ -20,6 +20,11 @@
 	<string>___FILEBASENAME___</string>
 	<key>SortOrder</key>
 	<integer>1</integer>
+	<key>Image</key>
+	<dict>
+		<key>FileTypeIcon</key>
+		<string>swift</string>
+	</dict>
 	<key>Options</key>
 	<array>
 		<dict>

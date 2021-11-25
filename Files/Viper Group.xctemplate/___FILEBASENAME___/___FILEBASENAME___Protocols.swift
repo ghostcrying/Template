@@ -9,12 +9,12 @@
 import Foundation
 
 // MARK: Wireframe -
-protocol ___VARIABLE_productName:identifier___WireframeProtocol: class {
+protocol ___VARIABLE_productName:identifier___WireframeProtocol: AnyObject {
     
 }
 
 // MARK: Presenter -
-protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
+protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
     
     func viewDidLoad()
     func viewWillAppear(_ animated: Bool)
@@ -26,23 +26,17 @@ protocol ___VARIABLE_productName:identifier___PresenterProtocol: class {
 }
 
 // MARK: Interactor -
-protocol ___VARIABLE_productName:identifier___InteractorProtocol: class {
+protocol ___VARIABLE_productName:identifier___InteractorProtocol: AnyObject {
 
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
     
-    func fetch()
-}
-
-// MARK: Model -
-protocol ___VARIABLE_productName:identifier___ModelProtocol: class {
+    func fetch(completion: @escaping (Swift.Result<___VARIABLE_productName:identifier___Item, Error>) -> ())
     
     func cancelAllRequest()
-    
-    func ___VARIABLE_productName:identifier___(_ completion: @escaping (PTResult<[___VARIABLE_productName:identifier___Item], String?>) -> Void)
 }
 
 // MARK: View -
-protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
+protocol ___VARIABLE_productName:identifier___ViewProtocol: AnyObject {
 
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol?  { get set }
 }

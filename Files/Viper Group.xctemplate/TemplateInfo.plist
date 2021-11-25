@@ -7,19 +7,22 @@
 		<string>public.swift-source</string>
 	</array>
 	<key>Platforms</key>
-	<array>
-		<string>com.apple.platform.iphoneos</string>
-	</array>
+	<array/>
 	<key>DefaultCompletionName</key>
-	<string>SwiftViperModule</string>
+	<string>Viper</string>
 	<key>Description</key>
 	<string>Basic Swift VIPER module template. Creates View, Interactor, Presenter, Router with protocols.</string>
 	<key>Kind</key>
-	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___</string>
 	<key>SortOrder</key>
 	<integer>1</integer>
+	<key>Image</key>
+	<dict>
+		<key>FileTypeIcon</key>
+		<string>swift</string>
+	</dict>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -30,7 +33,7 @@
 			<key>Identifier</key>
 			<string>viperModuleName</string>
 			<key>Name</key>
-			<string>Module name</string>
+			<string>Module Name</string>
 			<key>Required</key>
 			<string>YES</string>
 			<key>Type</key>

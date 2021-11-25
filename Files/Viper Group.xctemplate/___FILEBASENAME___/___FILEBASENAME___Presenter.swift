@@ -19,32 +19,5 @@ final class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_productN
         self.interactor = interactor
         self.router = router
     }
-    
-    func viewDidLoad() {
-        
-    }
-    
-    func viewWillAppear(_ animated: Bool) {
-        
-    }
-    
-    func viewDidAppear(_ animated: Bool) {
-        
-    }
-    
-    func viewWillDisappear(_ animated: Bool) {
-        
-    }
-    
-    func viewDidDisappear(_ animated: Bool) {
-        
-    }
-    
-    func viewWillLayoutSubviews() {
-        
-    }
-    
-    func viewDidLayoutSubviews() {
-        
-    }
+
 }

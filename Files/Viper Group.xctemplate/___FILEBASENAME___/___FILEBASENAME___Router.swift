@@ -1,4 +1,4 @@
- //
+//
 //  ___FILENAME___
 //  ___PROJECTNAME___
 //
@@ -13,7 +13,7 @@ final class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName
     weak var view: UIViewController?
     
     static func createModule() -> UIViewController {
-        let view = ___VARIABLE_productName:identifier___ViewControllerPad(nibName: nil, bundle: nil)
+        let view = ___VARIABLE_productName:identifier___ViewController(nibName: nil, bundle: nil)
         let interactor = ___VARIABLE_productName:identifier___Interactor()
         let router = ___VARIABLE_productName:identifier___Router()
         let presenter = ___VARIABLE_productName:identifier___Presenter(interface: view, interactor: interactor, router: router)
