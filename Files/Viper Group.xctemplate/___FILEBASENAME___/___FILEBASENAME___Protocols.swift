@@ -24,6 +24,16 @@ protocol ___VARIABLE_productName:identifier___PresenterProtocol: AnyObject {
     func viewWillLayoutSubviews()
     func viewDidLayoutSubviews()
 }
+extension ___VARIABLE_productName:identifier___PresenterProtocol {
+    
+    func viewDidLoad() {}
+    func viewWillAppear(_ animated: Bool) {}
+    func viewDidAppear(_ animated: Bool) {}
+    func viewWillDisappear(_ animated: Bool) {}
+    func viewDidDisappear(_ animated: Bool) {}
+    func viewWillLayoutSubviews() {}
+    func viewDidLayoutSubviews() {}
+}
 
 // MARK: Interactor -
 protocol ___VARIABLE_productName:identifier___InteractorProtocol: AnyObject {
