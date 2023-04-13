@@ -4,25 +4,24 @@
 <dict>
 	<key>AllowedTypes</key>
 	<array>
-		<string>public.swift-source</string>
+		<string>public.objective-c-source</string>
 	</array>
 	<key>Platforms</key>
-	<array/>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
 	<key>DefaultCompletionName</key>
-	<string>Viper</string>
+	<string>MVP</string>
 	<key>Description</key>
-	<string>Basic Swift VIPER module template. Creates View, Interactor, Presenter, Router with protocols.</string>
+	<string>Objective-C MVP Module Template</string>
 	<key>Kind</key>
-	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___</string>
 	<key>SortOrder</key>
 	<integer>1</integer>
-	<key>Image</key>
-	<dict>
-		<key>FileTypeIcon</key>
-		<string>swift</string>
-	</dict>
+	<key>Template Author</key>
+	<string>ghost</string>
 	<key>Options</key>
 	<array>
 		<dict>
@@ -31,7 +30,7 @@
 			<key>Default</key>
 			<string></string>
 			<key>Identifier</key>
-			<string>viperModuleName</string>
+			<string>mvpModuleName</string>
 			<key>Name</key>
 			<string>Module Name</string>
 			<key>Required</key>
@@ -41,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_viperModuleName___</string>
+			<string>___VARIABLE_mvpModuleName___</string>
 			<key>Identifier</key>
 			<string>productName</string>
 			<key>Type</key>

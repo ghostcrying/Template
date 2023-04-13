@@ -1,5 +1,5 @@
 # Template
-#### Viper Template
+### Template
 
 ##### 针对VIPER的Xcode模板文件File类别
 
@@ -19,14 +19,21 @@
 
 
 
-#### 功能
+### 功能
 
 - Files
-  - 整体Viper目录模板
+  - MVP.xctemplate
+    - OC语言的MVP模板，主动增加了Router管理 （其实就是简化版的VIPER）
+  
+  - VIPER.xctemplate
+    - Swift语言的VIPER模板
+  
 - Single
-  - 单个Viper文件模板
+  - 单个VIPER文件模板
 
 
+
+### Swift VIPER
 
 ##### 协议拓展
 
