@@ -13,7 +13,7 @@
 ##### 导入路径: xcode右键点击进入Contents
 
 ```
-* xcode 13
+* xcode 13 +
 /Developer/Library/Xcode/Templates/File Templates/MultiPlatform/Source 
 ```
 
